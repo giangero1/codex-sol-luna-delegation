@@ -9,6 +9,9 @@
 
 Giangero ModelFlow is a conservative, cost-aware delegation configuration for Codex. It keeps the main GPT-5.6 Sol thread focused on orchestration, architecture, integration, and final sign-off while GPT-5.6 Luna workers own bounded production execution.
 
+> [!TIP]
+> **Recommended coordinator:** Use GPT-5.6 Sol with **MEDIUM reasoning or higher**. MEDIUM is the recommended starting point; increase it when the coordination, architecture, or integration work genuinely requires deeper reasoning. This recommendation applies to the main Sol coordinator, while ModelFlow keeps Luna HIGH as the default production executor.
+
 > [!IMPORTANT]
 > This is an independent community configuration. It is not affiliated with or endorsed by OpenAI. OpenAI, ChatGPT, Codex, and GPT model names belong to their respective owners.
 
@@ -83,6 +86,7 @@ agents/
 ## Requirements
 
 - A current local Codex client with custom-agent support.
+- GPT-5.6 Sol at MEDIUM reasoning or higher for the main coordinator (recommended).
 - Account access to `gpt-5.6-luna` and the configured reasoning efforts.
 - Permission to modify your personal or project Codex configuration.
 
