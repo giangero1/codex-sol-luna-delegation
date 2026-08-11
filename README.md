@@ -35,9 +35,9 @@ flowchart LR
 
 ## Internal benchmark evidence
 
-![Observed token allocation across three internal delegation tests](assets/benchmark-token-allocation.svg)
+![Token allocation before and after the delegation workflow](assets/benchmark-token-allocation.svg)
 
-In Test 3, Sol Medium used **403,852 tokens** and performed no Unity MCP or implementation work, while Luna XHIGH used **4,230,396 tokens**, made **36 Unity MCP calls**, and owned coding, compilation, Console inspection, testing, retries, and validation.
+In the recorded workflow benchmark, Sol Medium used **403,852 tokens** and performed no Unity MCP or implementation work, while Luna XHIGH used **4,230,396 tokens**, made **36 Unity MCP calls**, and owned coding, compilation, Console inspection, testing, retries, and validation.
 
 These author-supplied internal results show the intended responsibility separation in the recorded runs; they are not presented as a general model-quality or efficiency benchmark. See the [full benchmark tables, interpretation, and limitations](docs/BENCHMARKS.md).
 
