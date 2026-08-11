@@ -1,10 +1,10 @@
-# Internal Benchmark Evidence
+# Giangero ModelFlow: Internal Benchmark Evidence
 
 This comparison documents two prior internal runs supplied by Giangero Studio: a baseline before the finished delegation workflow and a benchmark using the workflow. An intermediate setup/tuning attempt was intentionally excluded because it was not a valid comparison run.
 
 The results are evidence that the workflow produced the intended role separation in the recorded benchmark. They are not a general model-quality, cost, latency, or efficiency benchmark.
 
-![Token allocation before and after the delegation workflow](../assets/benchmark-token-allocation.svg)
+![Giangero ModelFlow benchmark showing token allocation before and after the workflow](../assets/benchmark-token-allocation.svg)
 
 ## Comparison task
 

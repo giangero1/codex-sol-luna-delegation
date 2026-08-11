@@ -1,11 +1,13 @@
-# Codex Sol–Luna Delegation Workflow
+# Giangero ModelFlow for Codex
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Latest release](https://img.shields.io/github/v/release/giangero1/codex-sol-luna-delegation)](https://github.com/giangero1/codex-sol-luna-delegation/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/giangero1/giangero-modelflow)](https://github.com/giangero1/giangero-modelflow/releases/latest)
 
 **Designed by Giangero Studio.**
 
-A conservative, project-neutral delegation configuration for Codex. It keeps the main GPT-5.6 Sol thread focused on orchestration, architecture, integration, and final sign-off while GPT-5.6 Luna workers own bounded production execution.
+**Use the right AI model for every job.**
+
+Giangero ModelFlow is a conservative, cost-aware delegation configuration for Codex. It keeps the main GPT-5.6 Sol thread focused on orchestration, architecture, integration, and final sign-off while GPT-5.6 Luna workers own bounded production execution.
 
 > [!IMPORTANT]
 > This is an independent community configuration. It is not affiliated with or endorsed by OpenAI. OpenAI, ChatGPT, Codex, and GPT model names belong to their respective owners.
@@ -35,7 +37,7 @@ flowchart LR
 
 ## Internal benchmark evidence
 
-![Token allocation before and after the delegation workflow](assets/benchmark-token-allocation.svg)
+![Giangero ModelFlow benchmark showing token allocation before and after the workflow](assets/benchmark-token-allocation.svg)
 
 In the recorded workflow benchmark, Sol Medium used **403,852 tokens** and performed no Unity MCP or implementation work, while Luna XHIGH used **4,230,396 tokens**, made **36 Unity MCP calls**, and owned coding, compilation, Console inspection, testing, retries, and validation.
 
@@ -90,7 +92,7 @@ Custom-agent behavior and model availability may change between Codex releases. 
 
 ### 1. Download
 
-Download the curated ZIP from the [latest GitHub release](https://github.com/giangero1/codex-sol-luna-delegation/releases/latest), or clone this repository.
+Download the curated ZIP from the [latest GitHub release](https://github.com/giangero1/giangero-modelflow/releases/latest), or clone this repository.
 
 ### 2. Back up existing configuration
 

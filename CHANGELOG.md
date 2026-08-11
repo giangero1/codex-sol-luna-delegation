@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+
+### Changed
+
+- Renamed the project to Giangero ModelFlow for Codex.
+- Added the internal benchmark graph and supporting evidence.
+
 ## [1.0.0] - 2026-08-11
 
 ### Added
